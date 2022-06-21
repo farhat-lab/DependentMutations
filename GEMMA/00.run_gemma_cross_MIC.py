@@ -98,7 +98,7 @@ for file in kwargs["input_pairs_file"]:
     
 print(f"Submitting cross for {len(df)} pairs")
 
-complete_snps = pd.read_pickle("/n/data1/hms/dbmi/farhat/Roger/homoplasy_project/rolling_DB_scrape/Genotypes_Filtered_2/genotypes_SNP_annotation.pkl")
+complete_snps = pd.read_pickle("../input/genotypes_SNP_annotation.pkl")
 
 table = [] # i, j, n_i, n_j, n_ij
 
