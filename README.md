@@ -1,7 +1,12 @@
 # DependentMutations
 
-This repository contains the series of Jupyter notebooks used to generate the results for Green et al, 2021, forthcoming. 
+This repository contains the series of Jupyter notebooks used to generate the results for Green et al, 2021, https://www.biorxiv.org/content/10.1101/2022.06.24.497504v1
 
+### Input and Output 
+Input data files and resulting output are quite large and are hosted separately at Harvard Dataverse: https://doi.org/10.7910/DVN/KMAACV
+This also contains input and output from running linear mixed models in GEMMA
+
+### Codebase
 The notebooks are run in numerical order. 
   - **00.convert_tree_data_to_event_matrices.ipynb** - converts the SNPPar output data into matrices of L x N, where L is the number of branches and N is the number of SNPs. 
   Computes a matrix of mutation events, reversions events, and genetic background, for each lineage individually and then combines. 
