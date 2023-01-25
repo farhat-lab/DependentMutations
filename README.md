@@ -13,20 +13,13 @@ The notebooks are run in numerical order.
   
   - **03.analyze_pvalues.ipynb** - Creates tables of hits that are related to antibiotic resistance
 
-Due to large file sizes the input files and output data are not hosted on gihub. You can download them below:
 
 ### Download the intermediate and output data here: <future_link>
 
 ### Download the input data here: <future_link>
 
-Note that the input data is from other publications that should be cited accordingly: 
+Note that the input data is from two other publications that should be cited accordingly: 
 
   - Comas et al, Nat Gen, 2013 10.1038/ng.1038 (M. tuberculosis pan-susceptible ancestor sequence)
 
   - Vargas et al, 2021, forthcoming (phylogenies and SNPpar output ancestral sequence reconstructions)
-
-  - Freschi et al, 
-
-  - Coll et al, 
-
-  - Kapopoulou A, Lew JM, Cole ST, Tuberculosis (Edinb), 2011. 10.1016/j.tube.2010.09.006 (Gene location data)

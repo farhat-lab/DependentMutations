@@ -4,7 +4,7 @@ input_pairs_file:
 - ../output/05.antibiotic/ETA_antibiotic_hits.csv
 - ../output/05.antibiotic/ETA_potentiator_antibiotic_hits.csv
 
-gemma: /n/data1/hms/dbmi/farhat/SuperDCA/GEMMA/gemma-0.98.1-linux-static
+gemma: /n/data1/hms/dbmi/farhat/anna/software/gemma-0.98.1-linux-static
 isolate_annotation_file: ../input/genotypes_isolate_annotation.pkl
 genotype_array_file: /n/data1/hms/dbmi/farhat/Roger/homoplasy_project/rolling_DB_scrape/Genotypes_Filtered_2/genotypes_matrix.npy
 snp_annotation_file: snp_annotation_file_MAF0p001.csv
