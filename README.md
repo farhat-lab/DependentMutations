@@ -22,7 +22,7 @@ The notebooks are run in numerical order.
   
   - **04A.analyze_pvalues_sequential.ipynb** - analysis of significant, sequentially ocurring dependent mutation pairs
 
-  - **04B.analyze_pvalues_sequential.ipynb** - analysis of significant, simultaneously ocurring dependent mutation pairs
+  - **04B.analyze_pvalues_simultaneous.ipynb** - analysis of significant, simultaneously ocurring dependent mutation pairs
 
   - **05.analyze_antibiotic_hits.ipynb** - analyze significant dependent mutations pairs related to antibiotic resistance
 
