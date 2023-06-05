@@ -24,9 +24,9 @@ genotype_translator = {
 
 job_submission_string = "#!/bin/bash\n"+\
 "#SBATCH -c 1                               # Request one core\n"+\
-"#SBATCH -t 0-11:05                         # Runtime in D-HH:MM format\n"+\
+"#SBATCH -t 0-0:01                         # Runtime in D-HH:MM format\n"+\
 "#SBATCH -p short                           # Partition to run in\n"+\
-"#SBATCH --mem=80G                         # Memory total in MB (for all cores)\n"+\
+"#SBATCH --mem=5G                         # Memory total in MB (for all cores)\n"+\
 "#SBATCH -o {prefix}_%j.out                 # File to which STDOUT will be written, including job ID (%j)\n"+\
 "#SBATCH -e {prefix}_%j.err                 # File to which STDERR will be written, including job ID (%j)\n"+\
 "{command}"
